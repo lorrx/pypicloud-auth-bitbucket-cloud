@@ -8,6 +8,7 @@ coverage = "*"
 pipdeptree = "*"
 graphviz = "*"
 pipfile-requirements = "*"
+pypicloud = {extras = ["server"],version = "*"}
 
 [packages]
 

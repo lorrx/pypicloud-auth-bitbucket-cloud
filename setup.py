@@ -16,20 +16,22 @@ with open('LICENSE') as file:
     license_text = file.read()
 
 setup(
-    name="pypicloud-auth-bitbucket-cloud",
+    name='pypicloud-auth-bitbucket-cloud',
     version=version,
     author='Lorrx',
     author_email='lorrx@protonmail.com',
-    description="Making Bitbucket Cloud authentication accessible for custom PyPI Cloud.",
+    description='Making Bitbucket Cloud authentication accessible '
+                'for custom PyPI Cloud.',
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=requirements,
     license=license_text,
-    python_requires=">=3.7",
+    python_requires='>=3.7',
     include_package_data=True,
     project_urls={
-        'Bug Reports': 'https://github.com/lorrx/pypicloud-auth-bitbucket-cloud/issues',
+        'Bug Reports': 'https://github.com/lorrx/pypicloud-auth-bitbucket'
+                       '-cloud/issues',
         'Source': 'https://github.com/lorrx/pypicloud-auth-bitbucket-cloud',
     },
     classifiers=[
@@ -41,9 +43,10 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.7',
-        "Programming Language :: Python :: 3.8",
-        "Topic :: System :: Systems Administration :: Authentication/Directory",
-        "Topic :: Utilities",
-        "Typing :: Typed",
+        'Programming Language :: Python :: 3.8',
+        'Topic :: System :: Systems Administration :: Authentication/'
+        'Directory',
+        'Topic :: Utilities',
+        'Typing :: Typed',
     ],
 )

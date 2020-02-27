@@ -20,7 +20,7 @@ setup(
     version=version,
     author='Lorrx',
     author_email='lorrx@protonmail.com',
-    description="Making Bitbucket Cloud authentication accessible for custom pypi cloud.",
+    description="Making Bitbucket Cloud authentication accessible for custom PyPI Cloud.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),

@@ -18,8 +18,8 @@ with open('LICENSE') as file:
 setup(
     name="pypicloud-auth-bitbucket-cloud",
     version=version,
-    author='DevOps Team',
-    author_email='devops@oblamatik.ch',
+    author='Lorrx',
+    author_email='lorrx@protonmail.com',
     description="Making Bitbucket Cloud authentication accessible for custom pypi cloud.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -28,6 +28,10 @@ setup(
     license=license_text,
     python_requires=">=3.7",
     include_package_data=True,
+    project_urls={
+        'Bug Reports': 'https://github.com/lorrx/pypicloud-auth-bitbucket-cloud/issues',
+        'Source': 'https://github.com/lorrx/pypicloud-auth-bitbucket-cloud',
+    },
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Environment :: Plugins'

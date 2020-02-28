@@ -8,9 +8,10 @@ coverage = "*"
 pipdeptree = "*"
 graphviz = "*"
 pipfile-requirements = "*"
-pypicloud = {extras = ["server"],version = "*"}
+pypicloud-auth-bitbucket-cloud = {editable = true,path = "."}
 
 [packages]
+pypicloud = {extras = ["server"],version = "*"}
 
 [requires]
 python_version = "3.8"

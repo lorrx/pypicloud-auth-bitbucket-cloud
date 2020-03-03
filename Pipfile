@@ -12,6 +12,8 @@ pypicloud-auth-bitbucket-cloud = {editable = true,path = "."}
 
 [packages]
 pypicloud = {extras = ["server"],version = "*"}
+pypicloud-auth-bitbucket-cloud = {editable = true,path = "."}
+requests = "*"
 
 [requires]
 python_version = "3.8"

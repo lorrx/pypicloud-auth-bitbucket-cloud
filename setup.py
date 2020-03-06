@@ -20,8 +20,7 @@ setup(
     version=version,
     author='Lorrx',
     author_email='lorrx@protonmail.com',
-    description='Making Bitbucket Cloud authentication accessible '
-                'for custom PyPI Cloud.',
+    description='Making Bitbucket Cloud authentication accessible for custom PyPI Cloud.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),
@@ -30,8 +29,7 @@ setup(
     python_requires='>=3.7',
     include_package_data=True,
     project_urls={
-        'Bug Reports': 'https://github.com/lorrx/pypicloud-auth-bitbucket'
-                       '-cloud/issues',
+        'Bug Reports': 'https://github.com/lorrx/pypicloud-auth-bitbucket-cloud/issues',
         'Source': 'https://github.com/lorrx/pypicloud-auth-bitbucket-cloud',
     },
     classifiers=[
@@ -43,8 +41,7 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.8',
-        'Topic :: System :: Systems Administration :: Authentication/'
-        'Directory',
+        'Topic :: System :: Systems Administration :: Authentication/Directory',
         'Topic :: Utilities',
         'Typing :: Typed',
     ],

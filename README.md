@@ -1,4 +1,8 @@
 # PyPI Cloud Plugin For User Auth Via Bitbucket Cloud
+
+[![Coverage Status](https://coveralls.io/repos/github/lorrx/pypicloud-auth-bitbucket-cloud/badge.svg?branch=develop)](https://coveralls.io/github/lorrx/pypicloud-auth-bitbucket-cloud?branch=develop)
+[![Build Status](https://travis-ci.org/lorrx/pypicloud-auth-bitbucket-cloud.svg?branch=master)](https://travis-ci.org/lorrx/pypicloud-auth-bitbucket-cloud)
+
 Making Bitbucket Cloud authentication accessible for custom PyPI Cloud.
 
 This project is inspired by the NPM package [verdaccio-bitbucket](https://github.com/idangozlan/verdaccio-bitbucket

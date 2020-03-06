@@ -19,7 +19,6 @@ plaster==1.0
 plaster-pastedeploy==0.7
 pycparser==2.19
 pypicloud[server]==1.0.13
--e .
 pyramid==1.10.4
 pyramid-beaker==0.8
 pyramid-duh==0.1.2

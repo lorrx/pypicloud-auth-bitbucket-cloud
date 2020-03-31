@@ -197,3 +197,4 @@ dmypy.json
 
 examples/db.sqlite
 examples/packages
+examples/oblamatik.ini
